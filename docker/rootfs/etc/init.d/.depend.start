@@ -1,5 +1,0 @@
-TARGETS = killprocs motd bootlogs single rc.local rmnologin
-INTERACTIVE =
-single: killprocs motd bootlogs
-rc.local: motd bootlogs
-rmnologin: motd bootlogs
